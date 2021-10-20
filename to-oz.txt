@@ -1,0 +1,52 @@
+Setup
+
+Create directory House/
+mkdir House
+
+Add files: Dorothy and Toto to House/
+cd House/
+touch Dorothy.txt Toto.txt
+
+Create directory Oz/
+cd ..
+mkdir Oz/
+
+Add files for the 4 Witches to Oz/
+cd Oz/
+touch Good_Witch_of_the_North.txt Wicked_Witch_of_the_East.txt Good_Witch_of_the_South.txt Wicked_Witch_of_the_West.txt
+
+Ding! Dong! The Witch is Dead
+
+rm Wicked_Witch_of_the_East.txt
+cd ..
+cd House/
+mv Dorothy.txt ../Oz
+
+Follow the Yellow Brick Road
+
+Add Scarecrow, Tin_Man, Cowardly_Lion
+cd ..
+cd Oz/
+touch Scarecrow.txt Tin_Man.txt Cowardly_Lion.txt
+
+Create directory Emerald_City/
+mkdir Emerald_City
+mv Scarecrow.txt Tin_Man.txt Cowardly_Lion.txt Emerald_City/
+
+You Must Kill the Witch
+
+Add Flying_Monkeys to Oz/
+cd ..
+touch Flying_Monkeys.txt
+
+Remove Wicked_Witch_of_the_West
+rm Wicked_Witch_of_the_West.txt
+
+Give the gifts
+cd Emerald_City/
+echo "diploma" >> Scarecrow.txt
+echo "heart shaped watch" >> Tin_Man.txt
+echo "medal" >> Cowardly_Lion.txt
+
+
+
